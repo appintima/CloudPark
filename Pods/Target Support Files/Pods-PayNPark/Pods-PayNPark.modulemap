@@ -1,0 +1,6 @@
+framework module Pods_PayNPark {
+  umbrella header "Pods-PayNPark-umbrella.h"
+
+  export *
+  module * { export * }
+}
