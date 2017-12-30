@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7036DEA651E4A7C375D72C02 /* Pods_PayNPark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE31C50BEADEEAE38961469 /* Pods_PayNPark.framework */; };
+		B3ABA9FD50E65B9EF055910B /* Pods_PayNParkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D621432F7D65059862FB6F6B /* Pods_PayNParkTests.framework */; };
+		C44C2EC981219CB26DFE17B5 /* Pods_PayNParkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED6A00A3F5A925A601FE16C /* Pods_PayNParkUITests.framework */; };
 		F39D5C681FF5DD35008A4A50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D5C671FF5DD35008A4A50 /* AppDelegate.swift */; };
-		F39D5C6A1FF5DD35008A4A50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D5C691FF5DD35008A4A50 /* ViewController.swift */; };
+		F39D5C6A1FF5DD35008A4A50 /* PayNPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D5C691FF5DD35008A4A50 /* PayNPark.swift */; };
 		F39D5C6D1FF5DD35008A4A50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39D5C6B1FF5DD35008A4A50 /* Main.storyboard */; };
 		F39D5C6F1FF5DD35008A4A50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39D5C6E1FF5DD35008A4A50 /* Assets.xcassets */; };
 		F39D5C721FF5DD35008A4A50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39D5C701FF5DD35008A4A50 /* LaunchScreen.storyboard */; };
 		F39D5C7D1FF5DD35008A4A50 /* PayNParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D5C7C1FF5DD35008A4A50 /* PayNParkTests.swift */; };
 		F39D5C881FF5DD35008A4A50 /* PayNParkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39D5C871FF5DD35008A4A50 /* PayNParkUITests.swift */; };
+		F3CE9B6E1FF6C631007E5C4A /* ParkingArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE9B6D1FF6C631007E5C4A /* ParkingArea.swift */; };
+		F3CE9B701FF6C63D007E5C4A /* ParkingSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE9B6F1FF6C63D007E5C4A /* ParkingSpot.swift */; };
+		F3CE9BF51FF6D117007E5C4A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3CE9BF41FF6D117007E5C4A /* GoogleService-Info.plist */; };
+		F3CE9BF81FF6D4B6007E5C4A /* 911Fonts.com_CenturyGothicRegular__-_911fonts.com_fonts_mhpY.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3CE9BF61FF6D4B5007E5C4A /* 911Fonts.com_CenturyGothicRegular__-_911fonts.com_fonts_mhpY.ttf */; };
+		F3CE9BF91FF6D4B6007E5C4A /* 07553_CenturyGothicBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3CE9BF71FF6D4B6007E5C4A /* 07553_CenturyGothicBold.ttf */; };
+		F3CE9BFC1FF6DA3A007E5C4A /* kodeqr_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = F3CE9BFB1FF6DA3A007E5C4A /* kodeqr_animation.json */; };
+		F3CE9BFE1FF6DA40007E5C4A /* scan_qr_code_success.json in Resources */ = {isa = PBXBuildFile; fileRef = F3CE9BFD1FF6DA3F007E5C4A /* scan_qr_code_success.json */; };
+		F3CE9C001FF6DA45007E5C4A /* iphone_x_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = F3CE9BFF1FF6DA45007E5C4A /* iphone_x_loading.json */; };
+		F3CE9C021FF6E467007E5C4A /* CustomAnimationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE9C011FF6E467007E5C4A /* CustomAnimationHandler.swift */; };
+		F3CE9C061FF6F06E007E5C4A /* cloud.json in Resources */ = {isa = PBXBuildFile; fileRef = F3CE9C051FF6F06E007E5C4A /* cloud.json */; };
+		F3CE9C081FF7020A007E5C4A /* TapScreenToCloseKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE9C071FF7020A007E5C4A /* TapScreenToCloseKeyboardViewController.swift */; };
+		F3CE9C0A1FF70514007E5C4A /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = F3CE9C091FF70514007E5C4A /* error.png */; };
+		F3CE9C0E1FF70F34007E5C4A /* simple_tick.json in Resources */ = {isa = PBXBuildFile; fileRef = F3CE9C0D1FF70F33007E5C4A /* simple_tick.json */; };
+		F3CE9C101FF71025007E5C4A /* ServiceCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE9C0F1FF71025007E5C4A /* ServiceCalls.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +51,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37B73F99D16EB75CA129DF05 /* Pods-PayNParkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayNParkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayNParkUITests/Pods-PayNParkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		39E12A2120BEA3971DF287EA /* Pods-PayNPark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayNPark.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayNPark/Pods-PayNPark.release.xcconfig"; sourceTree = "<group>"; };
+		4D1D763FB88FFE4056BD8416 /* Pods-PayNPark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayNPark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayNPark/Pods-PayNPark.debug.xcconfig"; sourceTree = "<group>"; };
+		5ED6A00A3F5A925A601FE16C /* Pods_PayNParkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayNParkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D110C1FB93FE861136F5B44 /* Pods-PayNParkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayNParkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayNParkUITests/Pods-PayNParkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90F73486F685FDB587DC1F57 /* Pods-PayNParkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayNParkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayNParkTests/Pods-PayNParkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBE31C50BEADEEAE38961469 /* Pods_PayNPark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayNPark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D621432F7D65059862FB6F6B /* Pods_PayNParkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayNParkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39D5C641FF5DD35008A4A50 /* PayNPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayNPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39D5C671FF5DD35008A4A50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F39D5C691FF5DD35008A4A50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F39D5C691FF5DD35008A4A50 /* PayNPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayNPark.swift; sourceTree = "<group>"; };
 		F39D5C6C1FF5DD35008A4A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F39D5C6E1FF5DD35008A4A50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F39D5C711FF5DD35008A4A50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +72,21 @@
 		F39D5C831FF5DD35008A4A50 /* PayNParkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayNParkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39D5C871FF5DD35008A4A50 /* PayNParkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayNParkUITests.swift; sourceTree = "<group>"; };
 		F39D5C891FF5DD35008A4A50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CE9B6D1FF6C631007E5C4A /* ParkingArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingArea.swift; sourceTree = "<group>"; };
+		F3CE9B6F1FF6C63D007E5C4A /* ParkingSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpot.swift; sourceTree = "<group>"; };
+		F3CE9BF41FF6D117007E5C4A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F3CE9BF61FF6D4B5007E5C4A /* 911Fonts.com_CenturyGothicRegular__-_911fonts.com_fonts_mhpY.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "911Fonts.com_CenturyGothicRegular__-_911fonts.com_fonts_mhpY.ttf"; sourceTree = "<group>"; };
+		F3CE9BF71FF6D4B6007E5C4A /* 07553_CenturyGothicBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 07553_CenturyGothicBold.ttf; sourceTree = "<group>"; };
+		F3CE9BFB1FF6DA3A007E5C4A /* kodeqr_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kodeqr_animation.json; sourceTree = "<group>"; };
+		F3CE9BFD1FF6DA3F007E5C4A /* scan_qr_code_success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scan_qr_code_success.json; sourceTree = "<group>"; };
+		F3CE9BFF1FF6DA45007E5C4A /* iphone_x_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iphone_x_loading.json; sourceTree = "<group>"; };
+		F3CE9C011FF6E467007E5C4A /* CustomAnimationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimationHandler.swift; sourceTree = "<group>"; };
+		F3CE9C051FF6F06E007E5C4A /* cloud.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cloud.json; sourceTree = "<group>"; };
+		F3CE9C071FF7020A007E5C4A /* TapScreenToCloseKeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapScreenToCloseKeyboardViewController.swift; sourceTree = "<group>"; };
+		F3CE9C091FF70514007E5C4A /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		F3CE9C0D1FF70F33007E5C4A /* simple_tick.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = simple_tick.json; sourceTree = "<group>"; };
+		F3CE9C0F1FF71025007E5C4A /* ServiceCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCalls.swift; sourceTree = "<group>"; };
+		FC65890ECF9D88969817CB59 /* Pods-PayNParkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayNParkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayNParkTests/Pods-PayNParkTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7036DEA651E4A7C375D72C02 /* Pods_PayNPark.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3ABA9FD50E65B9EF055910B /* Pods_PayNParkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +110,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44C2EC981219CB26DFE17B5 /* Pods_PayNParkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21CADD6421E41F58CF194948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBE31C50BEADEEAE38961469 /* Pods_PayNPark.framework */,
+				D621432F7D65059862FB6F6B /* Pods_PayNParkTests.framework */,
+				5ED6A00A3F5A925A601FE16C /* Pods_PayNParkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F39D5C5B1FF5DD35008A4A50 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +134,8 @@
 				F39D5C7B1FF5DD35008A4A50 /* PayNParkTests */,
 				F39D5C861FF5DD35008A4A50 /* PayNParkUITests */,
 				F39D5C651FF5DD35008A4A50 /* Products */,
+				FCC57714E5EF1EAEA2316A15 /* Pods */,
+				21CADD6421E41F58CF194948 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +152,19 @@
 		F39D5C661FF5DD35008A4A50 /* PayNPark */ = {
 			isa = PBXGroup;
 			children = (
+				F3CE9BFB1FF6DA3A007E5C4A /* kodeqr_animation.json */,
+				F3CE9C0D1FF70F33007E5C4A /* simple_tick.json */,
+				F3CE9C051FF6F06E007E5C4A /* cloud.json */,
+				F3CE9BFD1FF6DA3F007E5C4A /* scan_qr_code_success.json */,
+				F3CE9BFF1FF6DA45007E5C4A /* iphone_x_loading.json */,
+				F3CE9BFA1FF6D4BB007E5C4A /* Fonts */,
+				F3CE9BF41FF6D117007E5C4A /* GoogleService-Info.plist */,
+				F39D5C961FF5EED2008A4A50 /* ViewController */,
+				F39D5C951FF5EEC4008A4A50 /* Model */,
 				F39D5C671FF5DD35008A4A50 /* AppDelegate.swift */,
-				F39D5C691FF5DD35008A4A50 /* ViewController.swift */,
 				F39D5C6B1FF5DD35008A4A50 /* Main.storyboard */,
 				F39D5C6E1FF5DD35008A4A50 /* Assets.xcassets */,
+				F3CE9C091FF70514007E5C4A /* error.png */,
 				F39D5C701FF5DD35008A4A50 /* LaunchScreen.storyboard */,
 				F39D5C731FF5DD35008A4A50 /* Info.plist */,
 			);
@@ -125,6 +189,48 @@
 			path = PayNParkUITests;
 			sourceTree = "<group>";
 		};
+		F39D5C951FF5EEC4008A4A50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE9C0F1FF71025007E5C4A /* ServiceCalls.swift */,
+				F3CE9C071FF7020A007E5C4A /* TapScreenToCloseKeyboardViewController.swift */,
+				F3CE9C011FF6E467007E5C4A /* CustomAnimationHandler.swift */,
+				F3CE9B6D1FF6C631007E5C4A /* ParkingArea.swift */,
+				F3CE9B6F1FF6C63D007E5C4A /* ParkingSpot.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F39D5C961FF5EED2008A4A50 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F39D5C691FF5DD35008A4A50 /* PayNPark.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F3CE9BFA1FF6D4BB007E5C4A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F3CE9BF61FF6D4B5007E5C4A /* 911Fonts.com_CenturyGothicRegular__-_911fonts.com_fonts_mhpY.ttf */,
+				F3CE9BF71FF6D4B6007E5C4A /* 07553_CenturyGothicBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FCC57714E5EF1EAEA2316A15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D1D763FB88FFE4056BD8416 /* Pods-PayNPark.debug.xcconfig */,
+				39E12A2120BEA3971DF287EA /* Pods-PayNPark.release.xcconfig */,
+				90F73486F685FDB587DC1F57 /* Pods-PayNParkTests.debug.xcconfig */,
+				FC65890ECF9D88969817CB59 /* Pods-PayNParkTests.release.xcconfig */,
+				8D110C1FB93FE861136F5B44 /* Pods-PayNParkUITests.debug.xcconfig */,
+				37B73F99D16EB75CA129DF05 /* Pods-PayNParkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F39D5C8C1FF5DD36008A4A50 /* Build configuration list for PBXNativeTarget "PayNPark" */;
 			buildPhases = (
+				9DAF8F0F5C70417370BA876D /* [CP] Check Pods Manifest.lock */,
 				F39D5C601FF5DD35008A4A50 /* Sources */,
 				F39D5C611FF5DD35008A4A50 /* Frameworks */,
 				F39D5C621FF5DD35008A4A50 /* Resources */,
+				A2D805BCB871B63B2387C27B /* [CP] Embed Pods Frameworks */,
+				5C56FC7F276BC15D174712FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F39D5C8F1FF5DD36008A4A50 /* Build configuration list for PBXNativeTarget "PayNParkTests" */;
 			buildPhases = (
+				166EFC89EA828336217F5FE6 /* [CP] Check Pods Manifest.lock */,
 				F39D5C741FF5DD35008A4A50 /* Sources */,
 				F39D5C751FF5DD35008A4A50 /* Frameworks */,
 				F39D5C761FF5DD35008A4A50 /* Resources */,
+				2A19D7F330D53C29862EA589 /* [CP] Embed Pods Frameworks */,
+				CA6D7A9D448C32E67DD3BA80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F39D5C921FF5DD36008A4A50 /* Build configuration list for PBXNativeTarget "PayNParkUITests" */;
 			buildPhases = (
+				66677AADB9FCB1B8D17C88C0 /* [CP] Check Pods Manifest.lock */,
 				F39D5C7F1FF5DD35008A4A50 /* Sources */,
 				F39D5C801FF5DD35008A4A50 /* Frameworks */,
 				F39D5C811FF5DD35008A4A50 /* Resources */,
+				BF4D314EA8327DE7C98D8D87 /* [CP] Embed Pods Frameworks */,
+				88B23B88F9C7F9B504458BDC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +347,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3CE9C001FF6DA45007E5C4A /* iphone_x_loading.json in Resources */,
 				F39D5C721FF5DD35008A4A50 /* LaunchScreen.storyboard in Resources */,
+				F3CE9C0A1FF70514007E5C4A /* error.png in Resources */,
 				F39D5C6F1FF5DD35008A4A50 /* Assets.xcassets in Resources */,
+				F3CE9BFE1FF6DA40007E5C4A /* scan_qr_code_success.json in Resources */,
+				F3CE9C0E1FF70F34007E5C4A /* simple_tick.json in Resources */,
+				F3CE9C061FF6F06E007E5C4A /* cloud.json in Resources */,
+				F3CE9BF81FF6D4B6007E5C4A /* 911Fonts.com_CenturyGothicRegular__-_911fonts.com_fonts_mhpY.ttf in Resources */,
+				F3CE9BF51FF6D117007E5C4A /* GoogleService-Info.plist in Resources */,
 				F39D5C6D1FF5DD35008A4A50 /* Main.storyboard in Resources */,
+				F3CE9BFC1FF6DA3A007E5C4A /* kodeqr_animation.json in Resources */,
+				F3CE9BF91FF6D4B6007E5C4A /* 07553_CenturyGothicBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +378,190 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		166EFC89EA828336217F5FE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayNParkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A19D7F330D53C29862EA589 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayNParkTests/Pods-PayNParkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C56FC7F276BC15D174712FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayNPark/Pods-PayNPark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66677AADB9FCB1B8D17C88C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayNParkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88B23B88F9C7F9B504458BDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayNParkUITests/Pods-PayNParkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DAF8F0F5C70417370BA876D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayNPark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D805BCB871B63B2387C27B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PayNPark/Pods-PayNPark-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/Pastel/Pastel.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pastel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayNPark/Pods-PayNPark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF4D314EA8327DE7C98D8D87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayNParkUITests/Pods-PayNParkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA6D7A9D448C32E67DD3BA80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayNParkTests/Pods-PayNParkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F39D5C601FF5DD35008A4A50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F39D5C6A1FF5DD35008A4A50 /* ViewController.swift in Sources */,
+				F3CE9C021FF6E467007E5C4A /* CustomAnimationHandler.swift in Sources */,
+				F3CE9B6E1FF6C631007E5C4A /* ParkingArea.swift in Sources */,
+				F39D5C6A1FF5DD35008A4A50 /* PayNPark.swift in Sources */,
+				F3CE9C081FF7020A007E5C4A /* TapScreenToCloseKeyboardViewController.swift in Sources */,
+				F3CE9B701FF6C63D007E5C4A /* ParkingSpot.swift in Sources */,
 				F39D5C681FF5DD35008A4A50 /* AppDelegate.swift in Sources */,
+				F3CE9C101FF71025007E5C4A /* ServiceCalls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +725,7 @@
 		};
 		F39D5C8D1FF5DD36008A4A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D1D763FB88FFE4056BD8416 /* Pods-PayNPark.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -433,12 +735,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = internetofthing.PayNPark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F39D5C8E1FF5DD36008A4A50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E12A2120BEA3971DF287EA /* Pods-PayNPark.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,12 +751,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = internetofthing.PayNPark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		F39D5C901FF5DD36008A4A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F73486F685FDB587DC1F57 /* Pods-PayNParkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +775,7 @@
 		};
 		F39D5C911FF5DD36008A4A50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC65890ECF9D88969817CB59 /* Pods-PayNParkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +793,7 @@
 		};
 		F39D5C931FF5DD36008A4A50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D110C1FB93FE861136F5B44 /* Pods-PayNParkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +810,7 @@
 		};
 		F39D5C941FF5DD36008A4A50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B73F99D16EB75CA129DF05 /* Pods-PayNParkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
